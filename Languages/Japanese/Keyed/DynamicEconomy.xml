@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DE_GatherInfo_UnavailableCooldown>情報収集を行う (使用不可、次回の試行まであと{0})</DE_GatherInfo_UnavailableCooldown>
+  <DE_GatherInfo_UnavailablePawnIsIncapable>情報収集を行う (使用不可、{0}は社交を行なわない)</DE_GatherInfo_UnavailablePawnIsIncapable>
+  <DE_GatherInfo>情報収集を行う (成功率{0})</DE_GatherInfo>
+  <DE_HighDemandQuest_LetterLabel>不足</DE_HighDemandQuest_LetterLabel>
+  <DE_HighDemandQuest_LetterBody>近くのコロニーが特定の品を欲していることを入植者の一人が突き止めました。その品物に対しては通常よりも多額の金銭が支払われます。有益な取引を行うチャンスかもしれません。\n\n詳細については今後のクエストログで見られます。</DE_HighDemandQuest_LetterBody>
+  <DE_HighSupplyQuest_LetterLabel>余剰</DE_HighSupplyQuest_LetterLabel>
+  <DE_HighSupplyQuest_LetterBody>近くのコロニーが余分な在庫を抱えていることを入植者の一人が突き止めました。その品物は通常よりも安い値段で販売されます。有益な取引を行うチャンスかもしれません。\n\n詳細については今後のクエストログで見られます。</DE_HighSupplyQuest_LetterBody>
+  <DE_AffectingFactorsUnknown>未知の要因に影響されています。</DE_AffectingFactorsUnknown>
+  <DE_NoAffectingFactors>価格はどんな要因にも影響されていません。</DE_NoAffectingFactors>
+  <DE_LocalFactor>地域的な要因</DE_LocalFactor>
+  <DE_PlayerPurchasesFactor>プレイヤー側の購入掛け率</DE_PlayerPurchasesFactor>
+  <DE_PlayerSalesFactor>プレイヤー側の売却掛け率</DE_PlayerSalesFactor>
+  <DE_EventFactor>最近のイベントによる掛け率</DE_EventFactor>
+  <DE_OrbitalTraderRandomFactor>商船のトレード価格の掛け率</DE_OrbitalTraderRandomFactor>
+  <DE_BasePriceFactor_NotASettlementOrAShip>基本価格倍率</DE_BasePriceFactor_NotASettlementOrAShip>
+  <DE_ToggleMiningModeCommand_Label>マイニングモードを切り替える</DE_ToggleMiningModeCommand_Label>
+  <DE_ToggleMiningModeCommand_Desc>ライトモードとハードモードを切り替える。</DE_ToggleMiningModeCommand_Desc>
+  <DE_ExtractCoinCommand_Label>サイコイン貨幣を抽出する</DE_ExtractCoinCommand_Label>
+  <DE_ExtractCoinCommand_Desc>サイコイン貨幣を取り出す</DE_ExtractCoinCommand_Desc>
+  <DE_ExtractCoinCommand_Unavailable_TillNextCoin>次回のサイコインまで{0}</DE_ExtractCoinCommand_Unavailable_TillNextCoin>
+  <DE_PsiCoinReadyAlert_Label>サイコインの抽出準備完了</DE_PsiCoinReadyAlert_Label>
+  <DE_PsiCoinReadyAlert_Explanation>抽出待ちのサイコインが存在します</DE_PsiCoinReadyAlert_Explanation>
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <InstallPsiCoinMiner.label>サイコイン採掘機を移植する</InstallPsiCoinMiner.label>
+  <InstallPsiCoinMiner.description>サイコイン採掘機を移植します。</InstallPsiCoinMiner.description>
+  <InstallPsiCoinMiner.jobString>サイコイン採掘機を移植中です。</InstallPsiCoinMiner.jobString>
+  <RemovePsiCoinMiner.label>サイコイン採掘機を摘出する</RemovePsiCoinMiner.label>
+  <RemovePsiCoinMiner.description>サイコイン採掘機を摘出します。</RemovePsiCoinMiner.description>
+  <RemovePsiCoinMiner.jobString>サイコイン採掘機を摘出中です。</RemovePsiCoinMiner.jobString>
+</LanguageData>
