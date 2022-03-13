@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HighDemandQuest.questDescriptionRules.rulesStrings.0>questDescription-&gt;[settlement_label] needs [category_label]. [reasonInfo]. \n
+          Additional price modifier starts at x[sellFactorS] and will smoothly return back to default.</HighDemandQuest.questDescriptionRules.rulesStrings.0>
+  <HighDemandQuest.questDescriptionRules.rulesStrings.1>reasonInfo(demandedThingCategoryDefName==Medicine)-&gt;A virulent disease broke out within their community, bringing almost everyone to bed. They will pay much more for any medicines, be it a healroot or a glittermed</HighDemandQuest.questDescriptionRules.rulesStrings.1>
+  <HighDemandQuest.questDescriptionRules.rulesStrings.2>reasonInfo(demandedThingCategoryDefName==BuildingsArt)-&gt;They seek for somethng beatiful, something to be put in the center of the settlement. They will pay much more for sculptures</HighDemandQuest.questDescriptionRules.rulesStrings.2>
+  <HighDemandQuest.questDescriptionRules.rulesStrings.3>reasonInfo(demandedThingCategoryDefName==PlantFoodRaw)-&gt;It seems that their crops died out due to some kind of disease. They have no plant food now and will pay much more for it</HighDemandQuest.questDescriptionRules.rulesStrings.3>
+  <HighDemandQuest.questDescriptionRules.rulesStrings.4>reasonInfo(demandedThingCategoryDefName==MeatRaw)-&gt;Due to unfueled evaporative cooler or blackout their meat stocks have rotted totally. They are paying much more for meat now</HighDemandQuest.questDescriptionRules.rulesStrings.4>
+  <HighDemandQuest.questDescriptionRules.rulesStrings.5>reasonInfo(demandedThingCategoryDefName==Drugs)-&gt;Hardships of the rim broke many of their people bringing them to drug addiction. They will pay much more for drugs, be it a beer or a yayo</HighDemandQuest.questDescriptionRules.rulesStrings.5>
+  <HighDemandQuest.questDescriptionRules.rulesStrings.6>reasonInfo(demandedThingCategoryDefName==Weapons)-&gt;They are preparing for pirate raid, but they have little weaponry remaining. They will pay much more for weapons</HighDemandQuest.questDescriptionRules.rulesStrings.6>
+  <HighDemandQuest.questDescriptionRules.rulesStrings.7>reasonInfo(demandedThingCategoryDefName==Apparel)-&gt;Their inner route caravan, which was supposed to bring them new clothes, went missing. They will pay much more for any apparel</HighDemandQuest.questDescriptionRules.rulesStrings.7>
+  <HighDemandQuest.questNameRules.rulesStrings.0>questName-&gt;[supplyNoun] [requestWord]</HighDemandQuest.questNameRules.rulesStrings.0>
+  <HighDemandQuest.questNameRules.rulesStrings.1>questName-&gt;[supplyNoun] for [settlementName]</HighDemandQuest.questNameRules.rulesStrings.1>
+  <HighDemandQuest.questNameRules.rulesStrings.2>questName-&gt;[category_label] [lackWord]</HighDemandQuest.questNameRules.rulesStrings.2>
+  <HighDemandQuest.questNameRules.rulesStrings.3>supplyNoun-&gt;supplies</HighDemandQuest.questNameRules.rulesStrings.3>
+  <HighDemandQuest.questNameRules.rulesStrings.4>supplyNoun-&gt;goods</HighDemandQuest.questNameRules.rulesStrings.4>
+  <HighDemandQuest.questNameRules.rulesStrings.5>supplyNoun-&gt;cargo</HighDemandQuest.questNameRules.rulesStrings.5>
+  <HighDemandQuest.questNameRules.rulesStrings.6>requestWord-&gt;required</HighDemandQuest.questNameRules.rulesStrings.6>
+  <HighDemandQuest.questNameRules.rulesStrings.7>requestWord-&gt;request</HighDemandQuest.questNameRules.rulesStrings.7>
+  <HighDemandQuest.questNameRules.rulesStrings.8>requestWord-&gt;needed</HighDemandQuest.questNameRules.rulesStrings.8>
+  <HighDemandQuest.questNameRules.rulesStrings.9>lackWord-&gt;shortage</HighDemandQuest.questNameRules.rulesStrings.9>
+  <HighDemandQuest.questNameRules.rulesStrings.10>lackWord-&gt;deficiency</HighDemandQuest.questNameRules.rulesStrings.10>
+
+  <HighSupplyQuest.questDescriptionRules.rulesStrings.0>questDescription-&gt;[settlement_label] has excess [oferredThingCategoryDefName]. [reasonInfo]. \n
+            Additional price modifier starts at x[buyFactorS] and will smoothly return back to default.</HighSupplyQuest.questDescriptionRules.rulesStrings.0>
+  <HighSupplyQuest.questDescriptionRules.rulesStrings.1>reasonInfo(oferredThingCategoryDefName==Medicine)-&gt;They are having some kind of mercy deity festival and selling medicine much cheaper now</HighSupplyQuest.questDescriptionRules.rulesStrings.1>
+  <HighSupplyQuest.questDescriptionRules.rulesStrings.2>reasonInfo(oferredThingCategoryDefName==PlantFoodRaw)-&gt;They got an unusually huge harvest of crops. They dont need that much, so they are selling raw plant food much cheaper now</HighSupplyQuest.questDescriptionRules.rulesStrings.2>
+  <HighSupplyQuest.questDescriptionRules.rulesStrings.3>reasonInfo(oferredThingCategoryDefName==MeatRaw)-&gt;Their meat stocks are rotting and they are selling them much cheaper now. It is a good opportunity to buy some meat if you dont care about that smell of it</HighSupplyQuest.questDescriptionRules.rulesStrings.3>
+  <HighSupplyQuest.questDescriptionRules.rulesStrings.4>reasonInfo(oferredThingCategoryDefName==Drugs)-&gt;Their animals were eating up their drug stocks, which was leaving them with cirrosis. They are selling their drug stocks now to avoid animal diseases and deaths</HighSupplyQuest.questDescriptionRules.rulesStrings.4>
+  <HighSupplyQuest.questDescriptionRules.rulesStrings.5>reasonInfo(oferredThingCategoryDefName==Weapons)-&gt;They are trying to stop violence on this archotech-forsaken planet and are getiing rid of their weaponry. We are not the ones to judge their ways, but the ones to buy cheap weapons</HighSupplyQuest.questDescriptionRules.rulesStrings.5>
+  <HighSupplyQuest.questDescriptionRules.rulesStrings.6>reasonInfo(oferredThingCategoryDefName==Apparel)-&gt;One of theirs was practicing in crafting things and sewed too many apparel. They are selling it much cheaper now</HighSupplyQuest.questDescriptionRules.rulesStrings.6>
+  <HighSupplyQuest.questDescriptionRules.rulesStrings.7>reasonInfo(oferredThingCategoryDefName==BodyParts)-&gt;They have cracked open an ancient vault with all sort of implants and protheses in it. They are selling them really cheap now</HighSupplyQuest.questDescriptionRules.rulesStrings.7>
+  <HighSupplyQuest.questNameRules.rulesStrings.0>questName-&gt;[offerWord] [supplyNoun]</HighSupplyQuest.questNameRules.rulesStrings.0>
+  <HighSupplyQuest.questNameRules.rulesStrings.1>questName-&gt;[excessWord] [oferredThingCategoryDefName]</HighSupplyQuest.questNameRules.rulesStrings.1>
+  <HighSupplyQuest.questNameRules.rulesStrings.2>supplyNoun-&gt;supplies</HighSupplyQuest.questNameRules.rulesStrings.2>
+  <HighSupplyQuest.questNameRules.rulesStrings.3>supplyNoun-&gt;goods</HighSupplyQuest.questNameRules.rulesStrings.3>
+  <HighSupplyQuest.questNameRules.rulesStrings.4>supplyNoun-&gt;cargo</HighSupplyQuest.questNameRules.rulesStrings.4>
+  <HighSupplyQuest.questNameRules.rulesStrings.5>offerWord-&gt;cheap</HighSupplyQuest.questNameRules.rulesStrings.5>
+  <HighSupplyQuest.questNameRules.rulesStrings.6>offerWord-&gt;excess</HighSupplyQuest.questNameRules.rulesStrings.6>
+  <HighSupplyQuest.questNameRules.rulesStrings.7>offerWord-&gt;unneeded</HighSupplyQuest.questNameRules.rulesStrings.7>
+  <HighSupplyQuest.questNameRules.rulesStrings.8>excessWord-&gt;needless</HighSupplyQuest.questNameRules.rulesStrings.8>
+  <HighSupplyQuest.questNameRules.rulesStrings.9>excessWord-&gt;excess</HighSupplyQuest.questNameRules.rulesStrings.9>
+
+
+</LanguageData>
