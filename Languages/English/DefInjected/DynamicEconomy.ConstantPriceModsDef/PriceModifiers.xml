@@ -2,9 +2,9 @@
 <LanguageData>
 
   <Hillness_Flat.label>flat</Hillness_Flat.label>
-  <Hillness_SmallHills.label>flat</Hillness_SmallHills.label>
-  <Hillness_LargeHills.label>flat</Hillness_LargeHills.label>
-  <Hillness_Mountainous.label>flat</Hillness_Mountainous.label>
+  <Hillness_SmallHills.label>small hills</Hillness_SmallHills.label>
+  <Hillness_LargeHills.label>large hills</Hillness_LargeHills.label>
+  <Hillness_Mountainous.label>mountainous</Hillness_Mountainous.label>
 
 
 </LanguageData>
