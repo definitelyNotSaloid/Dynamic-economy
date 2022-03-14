@@ -17,9 +17,9 @@
   <DE_BasePriceFactor_NotASettlementOrAShip>基本価格倍率</DE_BasePriceFactor_NotASettlementOrAShip>
   <DE_ToggleMiningModeCommand_Label>マイニングモードを切り替える</DE_ToggleMiningModeCommand_Label>
   <DE_ToggleMiningModeCommand_Desc>ライトモードとハードモードを切り替える。</DE_ToggleMiningModeCommand_Desc>
-  <DE_ExtractCoinCommand_Label>サイコイン貨幣を抽出する</DE_ExtractCoinCommand_Label>
-  <DE_ExtractCoinCommand_Desc>サイコイン貨幣を取り出す</DE_ExtractCoinCommand_Desc>
-  <DE_ExtractCoinCommand_Unavailable_TillNextCoin>次回のサイコインまで{0}</DE_ExtractCoinCommand_Unavailable_TillNextCoin>
+  <DE_ExtractCoinCommand_Label>サイコインチップを抽出する</DE_ExtractCoinCommand_Label>
+  <DE_ExtractCoinCommand_Desc>サイコインチップを取り出す。</DE_ExtractCoinCommand_Desc>
+  <DE_ExtractCoinCommand_Unavailable_TillNextCoin>次回のサイコイン抽出まで{0}</DE_ExtractCoinCommand_Unavailable_TillNextCoin>
   <DE_PsiCoinReadyAlert_Label>サイコインの抽出準備完了</DE_PsiCoinReadyAlert_Label>
-  <DE_PsiCoinReadyAlert_Explanation>抽出待ちのサイコインが存在します</DE_PsiCoinReadyAlert_Explanation>
+  <DE_PsiCoinReadyAlert_Explanation>抽出待ちのサイコインが存在します。</DE_PsiCoinReadyAlert_Explanation>
 </LanguageData>
