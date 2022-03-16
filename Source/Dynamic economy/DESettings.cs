@@ -34,38 +34,38 @@ namespace DynamicEconomy
             Listing_Standard listingStandard = new Listing_Standard();
             listingStandard.Begin(inRect);
 
-            listingStandard.Label("Price factor drop rate multipiler: x" + (buyingPriceFactorDropRate / DefaultBuyingPriceFactorDropRate).ToString("F2"));
-            listingStandard.Label("Currently it takes around " + ((int)Math.Log(0.5f, (1-buyingPriceFactorDropRate))*2000).ToStringTicksToDays() + " for price multipiler to be halfed");
+            listingStandard.Label("DE_Settings_PriceFactorDropRateMultiplier".Translate((buyingPriceFactorDropRate / DefaultBuyingPriceFactorDropRate).ToString("F2")));
+            listingStandard.Label("DE_Settings_PriceMultiplier_HalvingTime".Translate(((int)Math.Log(0.5f, (1-buyingPriceFactorDropRate))*2000).ToStringTicksToDays()));
             buyingPriceFactorDropRate = listingStandard.Slider(buyingPriceFactorDropRate/DefaultBuyingPriceFactorDropRate, 0.01f, 10f)*DefaultBuyingPriceFactorDropRate;            //TODO make it logarithmic
 
-            listingStandard.Label("Price factor growth rate multipiler: x" + (sellingPriceFactorGrowthRate / DefaultSellinPriceFactorGrowthRate).ToString("F2"));
-            listingStandard.Label("Currently it takes around " + ((int)(0.5f / sellingPriceFactorGrowthRate)*2000).ToStringTicksToDays() + " for price multipiler to grow by 0.5");
+            listingStandard.Label("DE_Settings_PriceFactorGrowthRateMultiplier".Translate((sellingPriceFactorGrowthRate / DefaultSellinPriceFactorGrowthRate).ToString("F2")));
+            listingStandard.Label("DE_Settings_PriceMultiplier_DayToGrow".Translate(((int)(0.5f / sellingPriceFactorGrowthRate)*2000).ToStringTicksToDays()));
             sellingPriceFactorGrowthRate = listingStandard.Slider(sellingPriceFactorGrowthRate / DefaultSellinPriceFactorGrowthRate, 0.01f, 10f) * DefaultSellinPriceFactorGrowthRate;
 
-            listingStandard.Label("Price factor for each tech level difference: x" + (buyingPriceFactorTechLevel / DefaultBuyingPriceFactorTechLevel).ToString("F2"));
+            listingStandard.Label("DE_Settings_PriceFactor_TechLevel".Translate((buyingPriceFactorTechLevel / DefaultBuyingPriceFactorTechLevel).ToString("F2")));
             buyingPriceFactorTechLevel = listingStandard.Slider(buyingPriceFactorTechLevel / DefaultBuyingPriceFactorTechLevel, 0.01f, 10f) * DefaultBuyingPriceFactorTechLevel; 
 
-            listingStandard.Label("Player's purchases effect on price multipilers: x" + costToDoublePriceMultipiler.ToString("F2"));
-            listingStandard.Label("Currently it takes " + (int)TradeablePriceModifier.CostToDoubleFactor + " silver sent for a thing to double it's price");
+            listingStandard.Label("DE_Settings_PurchaseEffectOnPriceMultipliers".Translate(costToDoublePriceMultipiler.ToString("F2")));
+            listingStandard.Label("DE_Settings_PurchaseEffect_Silver".Translate((int)TradeablePriceModifier.CostToDoubleFactor));
             costToDoublePriceMultipiler = listingStandard.Slider(costToDoublePriceMultipiler, 0.05f, 10f);
 
-            listingStandard.Label("Player's sales effect on price multipilers: x" + costToHalvePriceMultipiler.ToString("F2"));
-            listingStandard.Label("Currently it takes " + (int)TradeablePriceModifier.CostToHalveFactor + " silver received for a thing to half it's price");
+            listingStandard.Label("DE_Settings_SaleEffectOnPriceMultipliers".Translate(costToHalvePriceMultipiler.ToString("F2")));
+            listingStandard.Label("DE_Settings_SaleEffect_Silver".Translate((int)TradeablePriceModifier.CostToHalveFactor));
             costToHalvePriceMultipiler = listingStandard.Slider(costToHalvePriceMultipiler, 0.05f, 10f);
 
-            listingStandard.Label("Player's turnover effect on trader's currency amount: x" + turnoverEffectOnTraderCurrencyMultipiler.ToString("F2"));
-            listingStandard.Label("Currently it takes " + (int)(turnoverEffectOnTraderCurrencyMultipiler * GameComponent_EconomyStateTracker.BaseTurnoverToDoubleTradersCurrency) + " of thing's value to double trader's money");
-            listingStandard.Label("Keep in mind that turnover effect drops with time, so actual multipiler for next trader will be less");
+            listingStandard.Label("DE_Settings_TurnoverEffectOnTradersCurrency".Translate(turnoverEffectOnTraderCurrencyMultipiler.ToString("F2")));
+            listingStandard.Label("DE_Settings_DealAmountToDoubleTradersCurrency".Translate((int)(turnoverEffectOnTraderCurrencyMultipiler * GameComponent_EconomyStateTracker.BaseTurnoverToDoubleTradersCurrency)));
+            listingStandard.Label("DE_Settings_TurnoverEffect_Note".Translate());
             turnoverEffectOnTraderCurrencyMultipiler = listingStandard.Slider(turnoverEffectOnTraderCurrencyMultipiler, 0.05f, 10f);
 
-            listingStandard.Label("Turnover effect drop rate: x" + turnoverEffectDropRateMultipiler.ToString("F2"));
-            listingStandard.Label("Currently it takes around " + ((int)Math.Log(0.5f, (1 - turnoverEffectDropRateMultipiler*GameComponent_EconomyStateTracker.BaseTurnoverEffectDrop)) * 2000).ToStringTicksToDays() + " for currency multipiler to be halfed");
+            listingStandard.Label("DE_Settings_TurnoverEffectDropRateMultipliers".Translate(turnoverEffectDropRateMultipiler.ToString("F2")));
+            listingStandard.Label("DE_Settings_CurrencyMultiplier_HalvingTime".Translate(((int)Math.Log(0.5f, (1 - turnoverEffectDropRateMultipiler*GameComponent_EconomyStateTracker.BaseTurnoverEffectDrop)) * 2000).ToStringTicksToDays()));
             turnoverEffectDropRateMultipiler = listingStandard.Slider(turnoverEffectDropRateMultipiler, 0.05f, 10f);
 
-            listingStandard.Label("Psicoin price randomness multipiler: " + randyCoinRandomOfsettMultipiler.ToString("F2"));
+            listingStandard.Label("DE_Settings_PsicoinPriceRandomMultiplier".Translate(randyCoinRandomOfsettMultipiler.ToString("F2")));
             randyCoinRandomOfsettMultipiler = listingStandard.Slider(randyCoinRandomOfsettMultipiler, 0.01f, 10f);
 
-            listingStandard.Label("Orbital trader's price offset range: " + orbitalTraderRandomPriceOffset.ToString("F2"));
+            listingStandard.Label("DE_Settings_OrbitalTradersPriceOffsetRange".Translate(orbitalTraderRandomPriceOffset.ToString("F2")));
             orbitalTraderRandomPriceOffset = listingStandard.Slider(orbitalTraderRandomPriceOffset, 0f, 0.9f);
 
             listingStandard.End();
