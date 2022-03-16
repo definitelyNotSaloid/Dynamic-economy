@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HighDemandQuest.questDescriptionRules.rulesStrings.0>questDescription->[settlement_label]は[category_label]を必要としています。[reasonInfo]。\n\n特別な価格調整は[sellFactorS]倍から開始し、緩やかに初期状態へと戻っていきます。</HighDemandQuest.questDescriptionRules.rulesStrings.0>
+  <HighDemandQuest.questDescriptionRules.rulesStrings.1>reasonInfo(demandedThingCategoryDefName==Medicine)->彼らの集落で突如、大病が流行し、住人のほとんどが病床に臥す事態へと陥りました。薬草であれ、最先端医薬品であれ、薬品は高値で売れることでしょう</HighDemandQuest.questDescriptionRules.rulesStrings.1>
+  <HighDemandQuest.questDescriptionRules.rulesStrings.2>reasonInfo(demandedThingCategoryDefName==BuildingsArt)->彼らは集落の中央に飾る美術品を探しています。彫刻は通常よりも高値で売れるでしょう</HighDemandQuest.questDescriptionRules.rulesStrings.2>
+  <HighDemandQuest.questDescriptionRules.rulesStrings.3>reasonInfo(demandedThingCategoryDefName==PlantFoodRaw)->とある枯病が流行り、彼らの集落の作物は全滅してしまったようです。現在、蓄えのない彼らは農産品に対して通常よりも高い代金を支払うでしょう</HighDemandQuest.questDescriptionRules.rulesStrings.3>
+  <HighDemandQuest.questDescriptionRules.rulesStrings.4>reasonInfo(demandedThingCategoryDefName==MeatRaw)->気化熱クーラーの燃料が足りず、太陽フレアにも見舞われたため、彼らが保存していた肉はすべて腐ってしまいました。現在、肉類は通常よりも高値で売れます</HighDemandQuest.questDescriptionRules.rulesStrings.4>
+  <HighDemandQuest.questDescriptionRules.rulesStrings.5>reasonInfo(demandedThingCategoryDefName==Drugs)->リムワールドにおける苦難と困窮の生活に耐えかねて、彼らの仲間が何人も薬物依存症に陥りました。ビールであれ、イェイョであれ、ドラッグは高値で売れることでしょう</HighDemandQuest.questDescriptionRules.rulesStrings.5>
+  <HighDemandQuest.questDescriptionRules.rulesStrings.6>reasonInfo(demandedThingCategoryDefName==Weapons)->彼らは宙族の襲撃に備えている最中ですが、武器の在庫がほとんどありません。武器は通常よりも高値で売れることでしょう</HighDemandQuest.questDescriptionRules.rulesStrings.6>
+  <HighDemandQuest.questDescriptionRules.rulesStrings.7>reasonInfo(demandedThingCategoryDefName==Apparel)->内陸沿いに進んでいた彼らのキャラバンが消息を断ちました。そのキャラバンは新品の衣服を運んでくる予定でした。種類を問わず衣服は高値で売れることでしょう</HighDemandQuest.questDescriptionRules.rulesStrings.7>
+  <HighDemandQuest.questNameRules.rulesStrings.0>questName->[supplyNoun]の[requestWord]</HighDemandQuest.questNameRules.rulesStrings.0>
+  <HighDemandQuest.questNameRules.rulesStrings.1>questName->[supplyNoun]を[settlementName]へ</HighDemandQuest.questNameRules.rulesStrings.1>
+  <HighDemandQuest.questNameRules.rulesStrings.2>questName->[category_label]の[lackWord]</HighDemandQuest.questNameRules.rulesStrings.2>
+  <HighDemandQuest.questNameRules.rulesStrings.3>supplyNoun->供給品</HighDemandQuest.questNameRules.rulesStrings.3>
+  <HighDemandQuest.questNameRules.rulesStrings.4>supplyNoun->物資</HighDemandQuest.questNameRules.rulesStrings.4>
+  <HighDemandQuest.questNameRules.rulesStrings.5>supplyNoun->貨物</HighDemandQuest.questNameRules.rulesStrings.5>
+  <HighDemandQuest.questNameRules.rulesStrings.6>requestWord->要請</HighDemandQuest.questNameRules.rulesStrings.6>
+  <HighDemandQuest.questNameRules.rulesStrings.7>requestWord->要求</HighDemandQuest.questNameRules.rulesStrings.7>
+  <HighDemandQuest.questNameRules.rulesStrings.8>requestWord->要望</HighDemandQuest.questNameRules.rulesStrings.8>
+  <HighDemandQuest.questNameRules.rulesStrings.9>lackWord->不足</HighDemandQuest.questNameRules.rulesStrings.9>
+  <HighDemandQuest.questNameRules.rulesStrings.10>lackWord->不備</HighDemandQuest.questNameRules.rulesStrings.10>
+  <HighSupplyQuest.questDescriptionRules.rulesStrings.0>questDescription->[settlement_label]は[oferredThingCategoryDefName]を余らせています。[reasonInfo]。\n\n特別な価格調整は[buyFactorS]倍から開始し、緩やかに初期状態へと戻っていきます。</HighSupplyQuest.questDescriptionRules.rulesStrings.0>
+  <HighSupplyQuest.questDescriptionRules.rulesStrings.1>reasonInfo(oferredThingCategoryDefName==Medicine)->彼らは今、慈悲の神の祭典を行なっており、薬品が大安売りされています</HighSupplyQuest.questDescriptionRules.rulesStrings.1>
+  <HighSupplyQuest.questDescriptionRules.rulesStrings.2>reasonInfo(oferredThingCategoryDefName==PlantFoodRaw)->彼らは稀に見る大豊作のおかげで、供給過多の状態です。そのため、今、作物が非常に安く販売されています</HighSupplyQuest.questDescriptionRules.rulesStrings.2>
+  <HighSupplyQuest.questDescriptionRules.rulesStrings.3>reasonInfo(oferredThingCategoryDefName==MeatRaw)->T彼らは貯蔵している肉を腐らせつつあり、現在、大安売りしています。臭いを気にしないのなら肉を買う良い機会でしょう</HighSupplyQuest.questDescriptionRules.rulesStrings.3>
+  <HighSupplyQuest.questDescriptionRules.rulesStrings.4>reasonInfo(oferredThingCategoryDefName==Drugs)->彼らの家畜が、備蓄していたドラッグを貪り尽くしたため、肝硬変を患ってしまいました。家畜を疾患と死から守るために彼らはドラッグを売り払おうとしています</HighSupplyQuest.questDescriptionRules.rulesStrings.4>
+  <HighSupplyQuest.questDescriptionRules.rulesStrings.5>reasonInfo(oferredThingCategoryDefName==Weapons)->彼らはアルコテックに見放されたこの惑星で暴力を止めようと武器を処分しています。彼らのやり方に口出しはしませんが、武器は安く手に入りそうです</HighSupplyQuest.questDescriptionRules.rulesStrings.5>
+  <HighSupplyQuest.questDescriptionRules.rulesStrings.6>reasonInfo(oferredThingCategoryDefName==Apparel)->彼らのメンバーの一人が工芸の練習で衣服を作りすぎてしまいました。彼らは今、衣類を大安売りしています</HighSupplyQuest.questDescriptionRules.rulesStrings.6>
+  <HighSupplyQuest.questDescriptionRules.rulesStrings.7>reasonInfo(oferredThingCategoryDefName==BodyParts)->彼らは古代の地下シェルターに侵入し、様々なインプラントと人工装具を手に入れました。現在、それらが非常に安価で売られています</HighSupplyQuest.questDescriptionRules.rulesStrings.7>
+  <HighSupplyQuest.questNameRules.rulesStrings.0>questName->[offerWord]な[supplyNoun]</HighSupplyQuest.questNameRules.rulesStrings.0>
+  <HighSupplyQuest.questNameRules.rulesStrings.1>questName->[excessWord]な[oferredThingCategoryDefName]</HighSupplyQuest.questNameRules.rulesStrings.1>
+  <HighSupplyQuest.questNameRules.rulesStrings.2>supplyNoun->供給品</HighSupplyQuest.questNameRules.rulesStrings.2>
+  <HighSupplyQuest.questNameRules.rulesStrings.3>supplyNoun->物資</HighSupplyQuest.questNameRules.rulesStrings.3>
+  <HighSupplyQuest.questNameRules.rulesStrings.4>supplyNoun->貨物</HighSupplyQuest.questNameRules.rulesStrings.4>
+  <HighSupplyQuest.questNameRules.rulesStrings.5>offerWord->安価</HighSupplyQuest.questNameRules.rulesStrings.5>
+  <HighSupplyQuest.questNameRules.rulesStrings.6>offerWord->余分</HighSupplyQuest.questNameRules.rulesStrings.6>
+  <HighSupplyQuest.questNameRules.rulesStrings.7>offerWord->不要</HighSupplyQuest.questNameRules.rulesStrings.7>
+  <HighSupplyQuest.questNameRules.rulesStrings.8>excessWord->不必要</HighSupplyQuest.questNameRules.rulesStrings.8>
+  <HighSupplyQuest.questNameRules.rulesStrings.9>excessWord->余分</HighSupplyQuest.questNameRules.rulesStrings.9>
+</LanguageData>

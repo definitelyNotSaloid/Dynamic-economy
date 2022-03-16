@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PsiCoinMining.label>サイコイン採掘</PsiCoinMining.label>
+  <PsiCoinMining.description>サイコインを採掘します。</PsiCoinMining.description>
+  <PsiCoinMining.stages.0.label>ライト</PsiCoinMining.stages.0.label>
+  <PsiCoinMining.stages.1.label>ハード</PsiCoinMining.stages.1.label>
+</LanguageData>

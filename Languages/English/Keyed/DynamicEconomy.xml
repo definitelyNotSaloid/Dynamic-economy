@@ -33,4 +33,30 @@
     <DE_PsiCoinReadyAlert_Label>PsiCoin ready for extraction</DE_PsiCoinReadyAlert_Label>
     <DE_PsiCoinReadyAlert_Explanation>One or more psicoins are waiting to be extracted</DE_PsiCoinReadyAlert_Explanation>
 
+    <!-- Settings -->
+    <DE_Settings_PriceFactorDropRateMultiplier>Price factor drop rate multiplier: x{0}</DE_Settings_PriceFactorDropRateMultiplier>
+    <DE_Settings_PriceMultiplier_HalvingTime>Currently it takes around {0} for price multiplier to be halved.</DE_Settings_PriceMultiplier_HalvingTime>
+
+    <DE_Settings_PriceFactorGrowthRateMultiplier>Price factor growth rate multiplier: x{0}</DE_Settings_PriceFactorGrowthRateMultiplier>
+    <DE_Settings_PriceMultiplier_DayToGrow>Currently it takes around {0} for price multiplier to grow by 0.5</DE_Settings_PriceMultiplier_DayToGrow>
+
+    <DE_Settings_PriceFactor_TechLevel>Price factor for each tech level difference: x{0}</DE_Settings_PriceFactor_TechLevel>
+
+    <DE_Settings_PurchaseEffectOnPriceMultipliers>Player's purchases effect on price multipliers: x{0}</DE_Settings_PurchaseEffectOnPriceMultipliers>
+    <DE_Settings_PurchaseEffect_Silver>Currently it takes {0} silver sent for a thing to double its price.</DE_Settings_PurchaseEffect_Silver>
+
+    <DE_Settings_SaleEffectOnPriceMultipliers>Player's sales effect on price multipliers: x{0}.</DE_Settings_SaleEffectOnPriceMultipliers>
+    <DE_Settings_SaleEffect_Silver>Currently it takes {0} silver received for a thing to halve its price.</DE_Settings_SaleEffect_Silver>
+
+    <DE_Settings_TurnoverEffectOnTradersCurrency>Player's turnover effect on trader's currency amount: x{0}</DE_Settings_TurnoverEffectOnTradersCurrency>
+    <DE_Settings_DealAmountToDoubleTradersCurrency>Curently it takes {0} of things value to double trader's money</DE_Settings_DealAmountToDoubleTradersCurrency>
+    <DE_Settings_TurnoverEffect_Note>Keep in mind that turnover effect drops with time, so actual multiplier for next trader will be less.</DE_Settings_TurnoverEffect_Note>
+
+    <DE_Settings_TurnoverEffectDropRateMultipliers>Turnover effect drop rate: x{0}</DE_Settings_TurnoverEffectDropRateMultipliers>
+    <DE_Settings_CurrencyMultiplier_HalvingTime>Currently it takes around {0} for currency multiplier to be halved.</DE_Settings_CurrencyMultiplier_HalvingTime>
+
+    <DE_Settings_PsicoinPriceRandomMultiplier>Psicoin price randomness multiplier: x{0}</DE_Settings_PsicoinPriceRandomMultiplier>
+
+    <DE_Settings_OrbitalTradersPriceOffsetRange>Orbital trader's price offset range: x{0}</DE_Settings_OrbitalTradersPriceOffsetRange>
+
 </LanguageData>

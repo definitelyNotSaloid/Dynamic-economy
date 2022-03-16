@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!-- Info gathering -->
+    <DE_GatherInfo_UnavailableCooldown>情報収集を行う (使用不可、次回の試行まであと{0})</DE_GatherInfo_UnavailableCooldown>
+    <DE_GatherInfo_UnavailablePawnIsIncapable>情報収集を行う (使用不可、{0}は社交を行なわない)</DE_GatherInfo_UnavailablePawnIsIncapable>
+    <DE_GatherInfo>情報収集を行う (成功率{0})</DE_GatherInfo>
+
+    <!-- Events -->
+    <DE_HighDemandQuest_LetterLabel>不足</DE_HighDemandQuest_LetterLabel>
+    <DE_HighDemandQuest_LetterBody>近くのコロニーが特定の品を欲していることを入植者の一人が突き止めました。その品物に対しては通常よりも多額の金銭が支払われます。有益な取引を行うチャンスかもしれません。\n\n詳細については今後のクエストログで見られます。</DE_HighDemandQuest_LetterBody>
+
+    <DE_HighSupplyQuest_LetterLabel>余剰</DE_HighSupplyQuest_LetterLabel>
+    <DE_HighSupplyQuest_LetterBody>近くのコロニーが余分な在庫を抱えていることを入植者の一人が突き止めました。その品物は通常よりも安い値段で販売されます。有益な取引を行うチャンスかもしれません。\n\n詳細については今後のクエストログで見られます。</DE_HighSupplyQuest_LetterBody>
+
+    <!-- factor info -->
+    <DE_AffectingFactorsUnknown>詳細不明の係数に影響されています。</DE_AffectingFactorsUnknown>
+    <DE_NoAffectingFactors>価格はどんな係数にも影響されていません。</DE_NoAffectingFactors>
+    <DE_LocalFactor>地域係数</DE_LocalFactor>
+    <DE_PlayerPurchasesFactor>プレイヤーの購入時掛け率</DE_PlayerPurchasesFactor>
+    <DE_PlayerSalesFactor>プレイヤーの販売時掛け率</DE_PlayerSalesFactor>
+    <DE_EventFactor>最近のイベントによる掛け率</DE_EventFactor>
+    <DE_OrbitalTraderRandomFactor>商船のトレード価格への掛け率</DE_OrbitalTraderRandomFactor>
+    <DE_BasePriceFactor_NotASettlementOrAShip>標準価格掛け率</DE_BasePriceFactor_NotASettlementOrAShip>
+
+    <!-- PsiCoin and related -->
+    <DE_ToggleMiningModeCommand_Label>マイニングモードを切り替える</DE_ToggleMiningModeCommand_Label>
+    <DE_ToggleMiningModeCommand_Desc>ライトモードとハードモードを切り替える。</DE_ToggleMiningModeCommand_Desc>
+
+    <DE_ExtractCoinCommand_Label>サイコインチップを抽出する</DE_ExtractCoinCommand_Label>
+    <DE_ExtractCoinCommand_Desc>サイコインチップを取り出す。</DE_ExtractCoinCommand_Desc>
+    <DE_ExtractCoinCommand_Unavailable_TillNextCoin>次回のサイコイン抽出まで{0}</DE_ExtractCoinCommand_Unavailable_TillNextCoin>
+
+    <DE_PsiCoinReadyAlert_Label>サイコインの抽出準備完了</DE_PsiCoinReadyAlert_Label>
+    <DE_PsiCoinReadyAlert_Explanation>抽出待ちのサイコインが存在します。</DE_PsiCoinReadyAlert_Explanation>
+
+    <!-- Settings -->
+    <DE_Settings_PriceFactorDropRateMultiplier>価格減少速度への掛け率: x{0}</DE_Settings_PriceFactorDropRateMultiplier>
+    <DE_Settings_PriceMultiplier_HalvingTime>現在の設定では、価格掛け率が半減するにはおよそ{0}かかります。</DE_Settings_PriceMultiplier_HalvingTime>
+    <DE_Settings_PriceFactorGrowthRateMultiplier>価格上昇速度への掛け率: x{0}</DE_Settings_PriceFactorGrowthRateMultiplier>
+    <DE_Settings_PriceMultiplier_DayToGrow>現在の設定では、価格掛け率が0.5増加するにはおよそ{0}かかります。</DE_Settings_PriceMultiplier_DayToGrow>
+    <DE_Settings_PriceFactor_TechLevel>取引相手との技術レベル差による価格係数: x{0}</DE_Settings_PriceFactor_TechLevel>
+    <DE_Settings_PurchaseEffectOnPriceMultipliers>プレイヤーの購入による価格掛け率への影響: x{0}</DE_Settings_PurchaseEffectOnPriceMultipliers>
+    <DE_Settings_PurchaseEffect_Silver>現在の設定では、ある品物が2倍の価格になるには取引で{0}シルバーを支払う必要があります。</DE_Settings_PurchaseEffect_Silver>
+    <DE_Settings_SaleEffectOnPriceMultipliers>プレイヤーの販売による価格掛け率への影響: x{0}.</DE_Settings_SaleEffectOnPriceMultipliers>
+    <DE_Settings_SaleEffect_Silver>現在の設定では、 ある品物が半額になるには取引で{0}シルバーを受け取る必要があります。</DE_Settings_SaleEffect_Silver>
+    <DE_Settings_TurnoverEffectOnTradersCurrency>プレイヤーの取引額が及ぼすトレーダーの資産への影響: x{0}</DE_Settings_TurnoverEffectOnTradersCurrency>
+    <DE_Settings_DealAmountToDoubleTradersCurrency>現在の設定では、トレーダーの資産が2倍になるまでに{0}シルバー相当の取引が必要です。</DE_Settings_DealAmountToDoubleTradersCurrency>
+    <DE_Settings_TurnoverEffect_Note>取引額の影響は時間とともに低下するので、次に来るトレーダーへの実際の掛け率はもっと小さくなることに注意してください。</DE_Settings_TurnoverEffect_Note>
+    <DE_Settings_TurnoverEffectDropRateMultipliers>取引高の影響の低下速度 : x{0}</DE_Settings_TurnoverEffectDropRateMultipliers>
+    <DE_Settings_CurrencyMultiplier_HalvingTime>現在の設定では、資産掛け率が半減するにはおよそ{0}かかります。</DE_Settings_CurrencyMultiplier_HalvingTime>
+  <DE_Settings_PsicoinPriceRandomMultiplier>サイコイン価格の乱数掛け率: x{0}</DE_Settings_PsicoinPriceRandomMultiplier>
+  <DE_Settings_OrbitalTradersPriceOffsetRange>商船トレーダーの価格オフセット値の範囲: x{0}</DE_Settings_OrbitalTradersPriceOffsetRange>
+</LanguageData>
